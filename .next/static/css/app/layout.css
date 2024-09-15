@@ -565,6 +565,12 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .flex {
   display: flex;
 }
@@ -656,6 +662,18 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-\[227px\] {
+  width: 227px;
+}
+.w-\[60px\] {
+  width: 60px;
+}
+.w-16 {
+  width: 4rem;
+}
+.w-56 {
+  width: 14rem;
 }
 .min-w-60 {
   min-width: 15rem;
@@ -848,6 +866,9 @@ video {
 .p-5 {
   padding: 1.25rem;
 }
+.p-4 {
+  padding: 1rem;
+}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -918,6 +939,9 @@ video {
 }
 .pt-4 {
   padding-top: 1rem;
+}
+.text-center {
+  text-align: center;
 }
 .text-\[10px\] {
   font-size: 10px;
@@ -1034,6 +1058,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
 @keyframes enter {
 
   from {
@@ -1065,6 +1097,9 @@ video {
 }
 .zoom-in-95 {
   --tw-enter-scale: .95;
+}
+.duration-300 {
+  animation-duration: 300ms;
 }
 .no-ring {
   outline: 2px solid transparent !important;
@@ -1175,6 +1210,11 @@ video {
 .hover\:text-primary-black:hover {
   --tw-text-opacity: 1;
   color: rgb(20 24 31 / var(--tw-text-opacity));
+}
+
+.hover\:text-primary-green:hover {
+  --tw-text-opacity: 1;
+  color: rgb(86 255 166 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
